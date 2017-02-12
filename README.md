@@ -1,7 +1,8 @@
 A MaterialToggle is like switch but this will look like IOS toggle button.
 In A sample screenshot of material toggle is there at root folder.
 
-http://res.cloudinary.com/vky/image/upload/v1486901493/material_toggle.png
+![alt tag](http://res.cloudinary.com/vky/image/upload/v1486901493/material_toggle.png)
+
 
 It has following attributes:
 
