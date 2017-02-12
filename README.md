@@ -15,7 +15,7 @@ It has following attributes:
 
 example :  
 
-<com.vky.materialtoggle.MaterialTogglel̥
+        <com.vky.materialtoggle.MaterialToggle
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:icon_1="@android:drawable/ic_lock_idle_alarm"
