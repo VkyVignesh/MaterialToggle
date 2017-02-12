@@ -11,12 +11,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.vky.materialtoggle.MainActivity">
 
-    <com.vky.materialtoggle.MaterialToggle
+    <com.vky.library.MaterialToggle
         android:id="@+id/toggle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:icon_1="@android:drawable/ic_lock_idle_alarm"
-        app:icon_2="@android:drawable/btn_star_big_on"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>

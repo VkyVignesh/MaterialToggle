@@ -1,4 +1,4 @@
-package com.vky.materialtoggle;
+package com.vky.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -100,26 +100,24 @@ public class MaterialToggle extends RelativeLayout implements View.OnClickListen
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.left_view:
-                if (selected_position != 0) {
-                    selected_position = 0;
-                    moveBackwardAnimation();
-                    ivHighlightView.setImageDrawable(highlightDrawable_1);
-                    if (listener != null)
-                        listener.onPositionSelected(selected_position);
-                }
-                break;
+        int i = view.getId();
+        if (i == R.id.left_view) {
+            if (selected_position != 0) {
+                selected_position = 0;
+                moveBackwardAnimation();
+                ivHighlightView.setImageDrawable(highlightDrawable_1);
+                if (listener != null)
+                    listener.onPositionSelected(selected_position);
+            }
 
-            case R.id.right_view:
-                if (selected_position != 1) {
-                    selected_position = 1;
-                    moveForwardAnimation();
-                    ivHighlightView.setImageDrawable(highlightDrawable_2);
-                    if (listener != null)
-                        listener.onPositionSelected(selected_position);
-                }
-                break;
+        } else if (i == R.id.right_view) {
+            if (selected_position != 1) {
+                selected_position = 1;
+                moveForwardAnimation();
+                ivHighlightView.setImageDrawable(highlightDrawable_2);
+                if (listener != null)
+                    listener.onPositionSelected(selected_position);
+            }
         }
     }
 
