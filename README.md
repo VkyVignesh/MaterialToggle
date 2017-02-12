@@ -6,13 +6,12 @@ In A sample screenshot of material toggle is there at root folder.
 
 It has following attributes:
 
--- icon_1
--- icon_2
--- stroke_width
--- stroke_color
--- bg_color
--- hightlight_color
-
+-- icon_1\n
+-- icon_2\n
+-- stroke_width\n
+-- stroke_color\n
+-- bg_color\n
+-- hightlight_color\n
 
 example : 
 
