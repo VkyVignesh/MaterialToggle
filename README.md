@@ -1,4 +1,4 @@
-A MaterialToggle is like switch but this will look like IOS toggle button.
+A MaterialToggle is like switch and this looks like IOS toggle button.
 In A sample screenshot of material toggle is there at root folder.
 
 ![alt tag](http://res.cloudinary.com/vky/image/upload/v1486902198/material_toggle_fsl2ew.png)
