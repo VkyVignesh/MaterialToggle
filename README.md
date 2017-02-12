@@ -1,19 +1,19 @@
 A MaterialToggle is like switch but this will look like IOS toggle button.
 In A sample screenshot of material toggle is there at root folder.
 
-![alt tag](http://res.cloudinary.com/vky/image/upload/v1486901493/material_toggle.png)
+![alt tag](http://res.cloudinary.com/vky/image/upload/v1486902198/material_toggle_fsl2ew.png)
 
 
 It has following attributes:
 
--- icon_1\n
--- icon_2\n
--- stroke_width\n
--- stroke_color\n
--- bg_color\n
--- hightlight_color\n
+-- icon_1  
+-- icon_2  
+-- stroke_width  
+-- stroke_color  
+-- bg_color  
+-- hightlight_color  
 
-example : 
+example :  
 
 <com.vky.materialtoggle.MaterialTogglel̥
         android:layout_width="wrap_content"
