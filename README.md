@@ -1,5 +1,5 @@
 A MaterialToggle is like switch and this looks like IOS toggle button.
-In A sample screenshot of material toggle is there at root folder.
+And you can find screenshot below to know how it looks.
 
 ![alt tag](http://res.cloudinary.com/vky/image/upload/v1486902198/material_toggle_fsl2ew.png)
 
@@ -23,3 +23,9 @@ example :
         app:stroke_width="3dp"
         app:stroke_color="@color/colorAccent"
         app:bg_color="@android:color/white"/>
+
+##Steps:  
+1)Download .aar file [here](http://res.cloudinary.com/vky/raw/upload/v1487078528/material_toggle.aar)  
+2)In Android Studio Add as new module check docs [here](https://developer.android.com/studio/projects/android-library.html)  
+
+# Now you can start using it..and enjoy..
